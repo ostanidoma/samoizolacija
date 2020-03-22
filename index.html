@@ -15,21 +15,15 @@
     }
 
     .map {
-        height: 500px;
+        height: 800px;
         width: 100%;
     }
 
-    .info {
-        position: absolute;
-        background: #c52126;
-        border: 2px solid #f8c421;
-        border-radius: 4px;
-        color: #f8c421;
-        z-index: 999;
-        padding: 10px;
-        display: none;
+    @media screen and(min-width: 750px) {
+        .map {
+            height: 500px;
+        }
     }
-
     .nav {
         background: #c52126;
         color: #f8c421;
